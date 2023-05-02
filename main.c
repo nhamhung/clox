@@ -70,7 +70,7 @@ int main(int argc, const char *argv[])
     if (argc == 1)
     {
         // repl();
-        interpret("-3");
+        interpret("(-1 + 2) * 3 - -4");
     }
     else if (argc == 2)
     {
